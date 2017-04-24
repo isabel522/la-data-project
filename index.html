@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+    <title> Unemployment In Los Angeles </title>
+    <link rel="stylesheet" href= "style.css" />
+    <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">        
+        <!-- Include Bootstrap -->
+    </head>
+    
+    <body>
+        <h1> Unemployment In Los Angeles</h1>
+               <button onClick = {getLADataFromAPI()} type="button" class="btn-group btn-group-lg">Click to see the Rate</button>
+
+    <button onclick="myFunction()">What Is Going On With This Site?? Click here (:</button>
+
+    <script>
+    function myFunction() {
+    alert(
+"We chose Unemployment in Los Angeles because it can show the data of the decreasing and increasing rate of unemployment since we live in Los Angeles. This data shows the year and the amount of people that were unemployed. It also shows the perecentage of the population in Los Angeles and gives the average age of the amount of people unemployed. If used productively, it can be used to track unemployment rate and used for an ability to not reach that rate anymore. It can also target the age range to supply them with jobs.  " 
+    );
+    }
+    </script>
+        <div class="row">        
+        <div id="result">
+
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
